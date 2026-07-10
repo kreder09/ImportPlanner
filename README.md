@@ -85,44 +85,6 @@ Import Planner consolida toda esta información en una única interfaz y genera 
 
 ---
 
-## Arquitectura
-
-El proyecto se encuentra organizado en capas para separar responsabilidades:
-
-
-ImportPlanner
-│
-├── Formularios
-│   └── frmPlanificador.cs
-│
-└── ImportPlanner.Datos
-    │
-    ├── Conexion
-    │   ├── ConexionSqlServer.cs
-    │   └── ConexionOracle.cs
-    │
-    ├── Modelos
-    │   ├── ConsumoVentana.cs
-    │   └── ParametrosPlanificacion.cs
-    │
-    └── Repositorios
-        ├── ConsumoRepository.cs
-        ├── ImportacionesRepository.cs
-        ├── ProveedorRepository.cs
-        └── StockRepository.cs
-
-
-### Componentes principales
-
-- ConsumoRepository
-- StockRepository
-- ImportacionesRepository
-- ProveedorRepository
-- ConexionSqlServer
-- ConexionOracle
-
----
-
 ## Optimizaciones implementadas
 
 ### Carga masiva de stock
@@ -143,15 +105,13 @@ Se refactorizó el acceso a datos para obtener todos los stocks mediante una ún
 
 ### Pantalla principal
 
-_Agregar captura de configuración de parámetros._
+<img width="1176" height="741" alt="ImportPlanner 1" src="https://github.com/user-attachments/assets/a4d6b32c-556f-4121-90d9-af4e10b3569a" />
+
 
 ### Resultados de planificación
 
-_Agregar captura del análisis generado._
+<img width="1176" height="741" alt="ImportPlanner 2" src="https://github.com/user-attachments/assets/b1a6d13f-313e-4fed-8459-deae71982790" />
 
-### Cobertura de stock
-
-_Agregar captura destacando el sistema de colores._
 
 ---
 
