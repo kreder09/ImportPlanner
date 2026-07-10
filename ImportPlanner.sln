@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportPlanner.Datos", "ImportPlanner.Datos\ImportPlanner.Datos.csproj", "{F56FD4C9-D66B-4F4A-A6AE-A229C0F8B567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportPlanner", "ImportPlanner\ImportPlanner.csproj", "{11766D71-8D17-4233-BCF3-97FF71849487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F56FD4C9-D66B-4F4A-A6AE-A229C0F8B567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56FD4C9-D66B-4F4A-A6AE-A229C0F8B567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56FD4C9-D66B-4F4A-A6AE-A229C0F8B567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56FD4C9-D66B-4F4A-A6AE-A229C0F8B567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11766D71-8D17-4233-BCF3-97FF71849487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11766D71-8D17-4233-BCF3-97FF71849487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11766D71-8D17-4233-BCF3-97FF71849487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11766D71-8D17-4233-BCF3-97FF71849487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
